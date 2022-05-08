@@ -38,7 +38,7 @@ jobs:
         mkdir -p /opt/images/
     - name: Build Firmware
       env:
-        TNAME: K2P_4.4_Nano
+        TNAME: K2P-4.4
       run: |
         cd padavan-4.4/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
